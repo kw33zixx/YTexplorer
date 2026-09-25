@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>youtube's trash bin explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-group">
+        <h1>hi :p</h1>
+      </div>
+      <p class="header-desc">
+        you can search smth here
+      </p>
+    </header>
+
+    <!-- Main Control Panel -->
+    <main class="control-panel">
+      <!-- Era Selection Tabs -->
+      <div class="era-selector">
+        <div class="era-tabs">
+          <button class="era-btn active" data-era="0">all time</button>
+          <button class="era-btn" data-era="1">fresh (~0 views)</button>
+          <button class="era-btn" data-era="2">pretty old videos (2008–2020)</button>
+          <button class="era-btn" data-era="3">retro (2006–2009)</button>
+        </div>
+      </div>
+
+      <!-- Filters Row -->
+      <div class="filter-row">
+        <!-- Category Dropdown -->
+        <div class="filter-col">
+          <label for="categorySelect">categories:</label>
+          <select id="categorySelect" class="custom-select">
+            <option value="all">📁 any category</option>
+            <option value="phone">📱 mobile devices</option>
+            <option value="camera">📷 cameras</option>
+            <option value="action_drone">🛹 drones, action cameras</option>
+            <option value="editor">✂️ video editors</option>
+            <option value="webcam_screen">🎙️ web cameras, screen recordings</option>
+            <option value="games">🎮 game recordings</option>
+            <option value="russian">🇷🇺 russian videos (genuinely why not)</option>
+          </select>
+        </div>
+
+        <!-- Max Views Filter -->
+        <div class="filter-col">
+          <label for="maxViewsSelect">max views filtering:</label>
+          <select id="maxViewsSelect" class="custom-select">
+            <option value="10">less than 10 views</option>
+            <option value="30" selected>less than 30 views</option>
+            <option value="50">less than 50 views</option>
+            <option value="100">less than 100 views</option>
+            <option value="-1">unlimited views</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Query Box & Actions -->
+      <div class="query-box">
+        <div class="query-input-wrap">
+          <input type="text" id="queryInput" placeholder="hi!" autocomplete="off">
+          <button id="btnRollQuery" class="btn-icon" title="give it a try">i feel lucky</button>
+        </div>
+
+        <div class="query-meta-bar" id="queryMetaBar">
+          <span class="meta-tag" id="metaMap">nan</span>
+          <span class="meta-tag" id="metaCategory">nan</span>
+          <span class="meta-desc" id="metaDesc">nan</span>
+          <a id="btnOpenYT" href="#" target="_blank" class="yt-link" title="open on yt">
+            open on yt ↗
+          </a>
+        </div>
+
+        <!-- Primary Action Buttons -->
+        <div class="actions-group">
+          <button id="btnDeepScan" class="btn-primary">
+            <span>search</span>
+          </button>
+          <button id="btnRoulette" class="btn-accent">
+            <span>random video</span>
+          </button>
+          <button id="btnToggleFavorites" class="btn-secondary">
+            <span>favourites (<span id="favCount">0</span>)</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Embedded Player Section (Active Video) -->
+    <section class="player-section hidden" id="playerSection">
+      <div class="player-card">
+        <div class="player-header">
+          <div class="now-playing-label">now playing</div>
+          <button id="btnClosePlayer" class="btn-close" title="close the player">&times;</button>
+        </div>
+        <div class="iframe-container">
+          <iframe id="videoIframe" src="" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <div class="player-details">
+          <div class="player-meta-left">
+            <h2 id="playerTitle">title</h2>
+            <div class="player-channel" id="playerChannel">author: unknown</div>
+          </div>
+          <div class="player-meta-right">
+            <div class="badge badge-views" id="playerViews">0 views</div>
+            <div class="badge badge-date" id="playerDate">--.--.----</div>
+            <button id="btnFavCurrent" class="btn-fav">loves it (fav)</button>
+            <a id="playerYtLink" href="#" target="_blank" class="btn-yt-small">on yt ↗</a>
+            <a id="playerDownload" href="#" class="btn-yt-small">download ↓</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Loading State -->
+    <div class="loading-state hidden" id="loadingState">
+      <div class="radar-spinner"></div>
+      <div class="loading-text" id="loadingText">loading.. sit tight!</div>
+      <div class="loading-sub">loading.. sit tight!</div>
+    </div>
+
+    <!-- Results Section -->
+    <section class="results-section">
+      <div class="results-header">
+        <h3 id="resultsHeading">history:</h3>
+        <span class="results-count" id="resultsCount">0 videos</span>
+      </div>
+
+      <div class="video-grid" id="videoGrid">
+        <!-- Video cards injected here -->
+      </div>
+
+      <!-- Empty placeholder -->
+      <div class="empty-state" id="emptyState">
+        <h3>history is empty</h3>
+        <p>cmon, just search something</p>
+      </div>
+    </section>
+
+    <!-- Favorites Drawer / Modal -->
+    <div class="favorites-modal hidden" id="favoritesModal">
+      <div class="favorites-content">
+        <div class="favorites-header">
+          <h3>favourite videos</h3>
+          <button id="btnCloseFavorites" class="btn-close">&times;</button>
+        </div>
+        <div class="favorites-list" id="favoritesList">
+          <!-- Favorites injected here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>youtube's trash bin explorer • all search keywords were provided by <strong>KVN AUST</strong> and their contributors</p>
+    </footer>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

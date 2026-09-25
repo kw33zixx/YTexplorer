@@ -1,0 +1,4546 @@
+[
+  {
+    "pattern": "IMG",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "IMG (Smartphone)"
+  },
+  {
+    "pattern": "MVI",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MVI (Camera)"
+  },
+  {
+    "pattern": "YYYYMMDD",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": "20250102",
+    "raw": "YYYYMMDD [20250102] (Misc) (YMD = YearMonthDay)"
+  },
+  {
+    "pattern": "WIN YYYYMMDD",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": "WIN 20250102",
+    "raw": "WIN YYYYMMDD [WIN 20250102] (Webcam)"
+  },
+  {
+    "pattern": "Capture YYYYMMDD",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "Capture YYYYMMDD (Webcam)"
+  },
+  {
+    "pattern": "VID YYYYMMDD",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "VID YYYYMMDD (Misc)"
+  },
+  {
+    "pattern": "My Movie X",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": "My Movie 1",
+    "raw": "“My Movie X” [”My Movie 1”] (Misc)"
+  },
+  {
+    "pattern": "My Edited Video",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My Edited Video” (Video editor)"
+  },
+  {
+    "pattern": "/Storage/Emulated/",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "/Storage/Emulated/ (Video editor)"
+  },
+  {
+    "pattern": "PXL",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "PXL (Smartphone)"
+  },
+  {
+    "pattern": "InShot YYYYMMDD",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "InShot YYYYMMDD (App)"
+  },
+  {
+    "pattern": "WhatsApp Video YYYY",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": "WhatsApp Video 2025",
+    "raw": "WhatsApp Video YYYY [WhatsApp Video 2025] (App)"
+  },
+  {
+    "pattern": "FullSizeRender",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "FullSizeRender (Smartphone)"
+  },
+  {
+    "pattern": "RPReplay",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "RPReplay (Screen Recorder)"
+  },
+  {
+    "pattern": "VTS 01",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "VTS 01 (DVD)"
+  },
+  {
+    "pattern": "DVR",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "DVR (Game Capture)"
+  },
+  {
+    "pattern": "VLC Record",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "VLC Record (Game Capture / Misc)"
+  },
+  {
+    "pattern": "Robloxapp",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "Robloxapp (Game Capture) (Roblox)"
+  },
+  {
+    "pattern": ".MP4",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.MP4” (Format)"
+  },
+  {
+    "pattern": ".3gp",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.3gp” (Format)"
+  },
+  {
+    "pattern": ".MOV",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.MOV” (Format)"
+  },
+  {
+    "pattern": ".AVI",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.AVI” (Format)"
+  },
+  {
+    "pattern": ".WMV",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.WMV” (Format)"
+  },
+  {
+    "pattern": ".FLAC",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.FLAC” (Format) (Copyright music)"
+  },
+  {
+    "pattern": ".WAV",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.WAV” (Format) (User-created music)"
+  },
+  {
+    "pattern": ".3g2",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.3g2” (Format)"
+  },
+  {
+    "pattern": "Recording gvo",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "Recording gvo (Zoom)"
+  },
+  {
+    "pattern": "Lv 0",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "Lv 0 (Misc)"
+  },
+  {
+    "pattern": "bmdjAAAF",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "bmdjAAAF (Misc)"
+  },
+  {
+    "pattern": "YouCut YYYYMMDD",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "YouCut YYYYMMDD (Misc)"
+  },
+  {
+    "pattern": "Video YYYYMMDD",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Video YYYYMMDD” (Misc)"
+  },
+  {
+    "pattern": "Copy of Copy of",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Copy of Copy of” (Misc)"
+  },
+  {
+    "pattern": "Untitled video",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Untitled video” (Misc)"
+  },
+  {
+    "pattern": "Com Oculus Vrshell",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Com Oculus Vrshell” (VR Headset)"
+  },
+  {
+    "pattern": "Com Oculus Metacam",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Com Oculus Metacam” (VR Headset)"
+  },
+  {
+    "pattern": "Desktop YYYY MM DD",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "Desktop YYYY MM DD (Game Capture)"
+  },
+  {
+    "pattern": "Videoplayback",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "Videoplayback (Misc)"
+  },
+  {
+    "pattern": "Video Output",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Video Output” (Phone)"
+  },
+  {
+    "pattern": "KM YYYYMMDD",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "KM YYYYMMDD (Video Editor)"
+  },
+  {
+    "pattern": "Portrait Video Nanny Canon   NSFW",
+    "in_quotes": false,
+    "map": 1,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "Portrait Video Nanny Canon (Video Editor)  NSFW"
+  },
+  {
+    "pattern": "Sequence 01 1",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Sequence 01 1” (Video Editor)"
+  },
+  {
+    "pattern": "Video Assignment",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Video Assignment” (Misc) (School Projects)"
+  },
+  {
+    "pattern": "Untitled Video Made with Clipchamp",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Untitled Video Made with Clipchamp” (Video Editor)"
+  },
+  {
+    "pattern": "Bandicam",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "“Bandicam” (Screen Recording)"
+  },
+  {
+    "pattern": "Untitled Design",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Untitled Design” (Video Editor)"
+  },
+  {
+    "pattern": "Javaw",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "“Javaw” (Game Capture) (Minecraft)"
+  },
+  {
+    "pattern": "Injected",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Injected” (360 Video) (Filter: 360 Video)"
+  },
+  {
+    "pattern": ".mpeg",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.mpeg” (Format)"
+  },
+  {
+    "pattern": "Sans titre",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Sans titre” (Misc)"
+  },
+  {
+    "pattern": "mobizen",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "“mobizen” (Screen Recorder)"
+  },
+  {
+    "pattern": "Made with Clipchamp",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Made with Clipchamp” (Video Editor)"
+  },
+  {
+    "pattern": "Made with Flexclip",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Made with Flexclip\" (Video Editor)"
+  },
+  {
+    "pattern": "Untitled Project",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Untitled Project\" (Misc)"
+  },
+  {
+    "pattern": "ScreenRecording",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "“ScreenRecording\" (Screen Recorder)"
+  },
+  {
+    "pattern": "Meeting Recording",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "“Meeting Recording” (Microsoft Teams)"
+  },
+  {
+    "pattern": "PixVerse * Image Text *",
+    "in_quotes": true,
+    "map": 1,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"PixVerse * Image Text *” (AI Editor) (AI Hell)"
+  },
+  {
+    "pattern": "IMG XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": "IMG 3201",
+    "raw": "IMG XXXX (0000-9999) (Camera) [IMG 3201]"
+  },
+  {
+    "pattern": "MVI XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MVI XXXX (Camera)"
+  },
+  {
+    "pattern": "MOV XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MOV XXXX (Camera)"
+  },
+  {
+    "pattern": "100 XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "100 XXXX (Camera)"
+  },
+  {
+    "pattern": "SAM XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SAM XXXX (Camera)"
+  },
+  {
+    "pattern": "DSC XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "DSC XXXX (Camera)"
+  },
+  {
+    "pattern": "SDV XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SDV XXXX (Camera)"
+  },
+  {
+    "pattern": "DSCFXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "DSCFXXXX (Camera)"
+  },
+  {
+    "pattern": "DSCNXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "DSCNXXXX (Camera)"
+  },
+  {
+    "pattern": "PICTXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "PICTXXXX (Camera)"
+  },
+  {
+    "pattern": "MAQ0XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MAQ0XXXX (Camera)"
+  },
+  {
+    "pattern": "FILEXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "FILEXXXX (Dashcam)"
+  },
+  {
+    "pattern": "GOPRXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "GOPRXXXX (GoPro)"
+  },
+  {
+    "pattern": "GP01XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "GP01XXXX (GoPro)"
+  },
+  {
+    "pattern": "GX01XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "GX01XXXX (GoPro)"
+  },
+  {
+    "pattern": "DJI XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "DJI XXXX (0000-2000) (Drone)"
+  },
+  {
+    "pattern": "HNI 0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "HNI 0XXX (000-100) (Nintendo DSi)"
+  },
+  {
+    "pattern": "WA0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "WA0XXX (000-999) (Misc)"
+  },
+  {
+    "pattern": "MOL0XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": "MOL0E5",
+    "raw": "MOL0XX (A-F / 0-9) [MOL0E5] (Camera)"
+  },
+  {
+    "pattern": "MOL0XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "MOL0XX (00-99)"
+  },
+  {
+    "pattern": "HHMMSS",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“HHMMSS” (000000-235959) (Misc) (Time of Day)"
+  },
+  {
+    "pattern": "P100XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "P100XXXX (0000-1999) (Camera)"
+  },
+  {
+    "pattern": "VTS XX X",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "VTS XX X (00-99 0-9) (DVD)"
+  },
+  {
+    "pattern": "VTS XXX 1",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "VTS XXX 1 (000-999) (DVD)"
+  },
+  {
+    "pattern": "VTS 01 XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "VTS 01 XXX (000-999) (DVD)"
+  },
+  {
+    "pattern": "My Slideshow Video",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My Slideshow Video” (Video Editor)"
+  },
+  {
+    "pattern": "My Slideshow",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My Slideshow” (Video Editor)"
+  },
+  {
+    "pattern": "My Slideshow XX",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My Slideshow XX” (00-99)  (Video Editor)"
+  },
+  {
+    "pattern": "My Stupeflix Video",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My Stupeflix Video” (Video Editor)"
+  },
+  {
+    "pattern": "My Stupeflix Video XXXX",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“My Stupeflix Video XXXX” (0000-1050)"
+  },
+  {
+    "pattern": "YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "YYYYMMDD (20250826)"
+  },
+  {
+    "pattern": "WIN YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "WIN YYYYMMDD (>2013)"
+  },
+  {
+    "pattern": "VID YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "VID YYYYMMDD (>2008)"
+  },
+  {
+    "pattern": "Capture YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "Capture YYYYMMDD (>2008)"
+  },
+  {
+    "pattern": "InShot YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "InShot YYYYMMDD (>2016)"
+  },
+  {
+    "pattern": "PXL YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "PXL YYYYMMDD (>2020)"
+  },
+  {
+    "pattern": "AUD-YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "AUD-YYYYMMDD (>2017)"
+  },
+  {
+    "pattern": "240p 400k  NSFW",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "240p 400k (Filter: Playlist) NSFW"
+  },
+  {
+    "pattern": "480p 600k             ^             NSFW",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "480p 600k             ^             NSFW"
+  },
+  {
+    "pattern": "480p 2000k           ^             NSFW",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "480p 2000k           ^             NSFW"
+  },
+  {
+    "pattern": "720p 1500k           ^             NSFW",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "720p 1500k           ^             NSFW"
+  },
+  {
+    "pattern": "720p 4000k           ^             NSFW",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "720p 4000k           ^             NSFW"
+  },
+  {
+    "pattern": "Clips4Sale            ^             NSFW",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "Clips4Sale            ^             NSFW"
+  },
+  {
+    "pattern": "WhatsApp Video YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "WhatsApp Video YYYY MM DD (>2015)"
+  },
+  {
+    "pattern": "Desktop YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "Desktop YYYY MM DD (Game Capture)"
+  },
+  {
+    "pattern": "Axon Body * Video",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Axon Body * Video” (Body Cam)"
+  },
+  {
+    "pattern": "WP YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "WP YYYYMMDD (Misc) (>2011)"
+  },
+  {
+    "pattern": "Video YYYYMMDD",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Video YYYYMMDD” (Misc) (>2012)"
+  },
+  {
+    "pattern": "KakaoTalk Video YYYY MM",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "KakaoTalk Video YYYY MM (Misc) (>2012)"
+  },
+  {
+    "pattern": "AVSEQXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "AVSEQXX (00-99) (Misc)"
+  },
+  {
+    "pattern": "AVSEQXX.DAT",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "AVSEQXX.DAT (00-99) (Misc)"
+  },
+  {
+    "pattern": "MOVIXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "MOVIXXXX (0000-1050) (Drone / Dashcam)"
+  },
+  {
+    "pattern": "GMTYYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "GMTYYYYMMDD (Zoom)"
+  },
+  {
+    "pattern": "SVM AXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SVM AXXXX (0000-1000) (Camera)"
+  },
+  {
+    "pattern": "KVIDXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "KVIDXXXX (0000-1000) (Camera)"
+  },
+  {
+    "pattern": "My Videolicious Video",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My Videolicious Video” (Video Editor)"
+  },
+  {
+    "pattern": "M2U0XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "M2U0XXXX (0000-9999) (Camcorder)"
+  },
+  {
+    "pattern": "GH01XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "GH01XXXX (GoPro)"
+  },
+  {
+    "pattern": "Month DD, YYYY",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": "May 02, 2011",
+    "raw": "“Month DD, YYYY” [“May 02, 2011”] (Phone)"
+  },
+  {
+    "pattern": "MAH0XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MAH0XXXX (0000-9999) (Camera)"
+  },
+  {
+    "pattern": "CIMGXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "CIMGXXXX (0000-9999) (Camera)"
+  },
+  {
+    "pattern": "IMGPXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "IMGPXXXX (0000-9999) (Camera)"
+  },
+  {
+    "pattern": "VideoXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "VideoXXXX (0000-9999) (Camera)"
+  },
+  {
+    "pattern": "MOV0XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MOV0XXXX (0000-9999) (Camera)"
+  },
+  {
+    "pattern": "MUSIC0X.DAT",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "MUSIC0X.DAT (DVD) (1-9) (Karaoke)"
+  },
+  {
+    "pattern": "REC XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "REC XXXX (0000-1000) (Drone / Dashcam)"
+  },
+  {
+    "pattern": "AVI00XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "AVI00XXX (000-100) (Camera)"
+  },
+  {
+    "pattern": "AVI 0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "AVI 0XXX (001-150) (Camera)"
+  },
+  {
+    "pattern": "4XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": "4A2F",
+    "raw": "4XXX (AAA-FFF / 000-999) [4A2F] (Phone)"
+  },
+  {
+    "pattern": "Trim 4XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "Trim 4XXX (AAA-FFF / 000-999) (Phone)"
+  },
+  {
+    "pattern": "Copy 4XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "Copy 4XXX (AAA-FFF / 000-999) (Phone)"
+  },
+  {
+    "pattern": "Video 4XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "Video 4XXX (AAA-FFF / 000-999) (Phone)"
+  },
+  {
+    "pattern": "M4H0XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "M4H0XXXX (0000-9999) (Camera)"
+  },
+  {
+    "pattern": "M4V0XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "M4V0XXXX (0000-9999) (Camera)"
+  },
+  {
+    "pattern": "SDC1XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SDC1XXXX (0000-9999) (Camera)"
+  },
+  {
+    "pattern": "SANYXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SANYXXXX (0000-9999) (Camera)"
+  },
+  {
+    "pattern": "HPIMXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "HPIMXXXX (0000-9999) (Camera)"
+  },
+  {
+    "pattern": "GEDCXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "GEDCXXXX (0000-9999) (Camera)"
+  },
+  {
+    "pattern": "XXXX.mp4",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "XXXX.mp4 (0000-9999) (Misc)"
+  },
+  {
+    "pattern": "VID0XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "VID0XXXX (0000-5000) (Camera)"
+  },
+  {
+    "pattern": "DSC 0XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "DSC 0XXXX (0000-5000) (Camera)"
+  },
+  {
+    "pattern": "CAM0XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "CAM0XXXX (0000-5000) (Camera)"
+  },
+  {
+    "pattern": "AMBAXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "AMBAXXXX (0001-5000) (Action Cam)"
+  },
+  {
+    "pattern": "HDV XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "HDV XXXX (0001-5000) (Camera)"
+  },
+  {
+    "pattern": "DSCIXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "DSCIXXXX (0001-4000) (Camera)"
+  },
+  {
+    "pattern": "SNV3XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SNV3XXXX (0001-3000) (Camera)"
+  },
+  {
+    "pattern": "MOVXXXXA",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MOVXXXXA (0000-3000) (Camera)"
+  },
+  {
+    "pattern": "Zi6 XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "Zi6 XXXX (0001-2000) (Camera)"
+  },
+  {
+    "pattern": "ClipXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "ClipXXXX (0000-2000) (Misc)"
+  },
+  {
+    "pattern": "YDXJXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "YDXJXXXX (0001-2000) (Action Cam)"
+  },
+  {
+    "pattern": "0XXXX.MTS",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "0XXXX.MTS (0000-2000) (Camera)"
+  },
+  {
+    "pattern": "SSPXXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SSPXXXXX (0001-2000) (Camera)"
+  },
+  {
+    "pattern": "00XXXXA",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "00XXXXA (0001-2000) (Action Cam)"
+  },
+  {
+    "pattern": "IMAGXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "IMAGXXXX (0000-2000) (Camera)"
+  },
+  {
+    "pattern": "CXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "CXXXX (0000-2000) (Camera)"
+  },
+  {
+    "pattern": "SUNPXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SUNPXXXX (0000-1500) (Camera)"
+  },
+  {
+    "pattern": "Picture XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "Picture XXX (001-1220) (Phone)"
+  },
+  {
+    "pattern": "PC10XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "PC10XXXX (0001-1050) (Camera)"
+  },
+  {
+    "pattern": "PTDCXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "PTDCXXXX (0000-1000) (Camera)"
+  },
+  {
+    "pattern": "ВидеоXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera",
+      "russian"
+    ],
+    "example": null,
+    "raw": "ВидеоXXXX (0000-1000) (Camera) (Russian)"
+  },
+  {
+    "pattern": "VCLPXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "VCLPXXXX (0001-1000) (Camera)"
+  },
+  {
+    "pattern": "FHDXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "FHDXXXX (0001-1000) (Action Cam)"
+  },
+  {
+    "pattern": "Moto_0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "Moto_0XXX (000-999) (Phone)"
+  },
+  {
+    "pattern": "WEB_0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "WEB_0XXX (001-999) (Camera)"
+  },
+  {
+    "pattern": "P1XX0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "P1XX0XXX (01-35) (001-999) (Camera)"
+  },
+  {
+    "pattern": "im000XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "im000XXX (001-899) (Camera)"
+  },
+  {
+    "pattern": "ZOOM0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "ZOOM0XXX (001-800) (Camera)"
+  },
+  {
+    "pattern": "SV A0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SV A0XXX (001-600) (Camera)"
+  },
+  {
+    "pattern": "Videoplayback XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "Videoplayback XXX (1-500) (Misc)"
+  },
+  {
+    "pattern": "GEDV0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "GEDV0XXX (001-500) (Camera)"
+  },
+  {
+    "pattern": "0001 0XXX",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“0001 0XXX” (019-500) (Blender 3D)"
+  },
+  {
+    "pattern": "ACTP0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "ACTP0XXX (001-400) (Action Cam)"
+  },
+  {
+    "pattern": "PAXX0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "PAXX0XXX (00-30) (001-499) (Camera)"
+  },
+  {
+    "pattern": "PBXX0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "PBXX0XXX (00-30) (001-499) (Camera)"
+  },
+  {
+    "pattern": "IM000XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "IM000XXX (000-400) (Trail Cam / Camera)"
+  },
+  {
+    "pattern": "MAV 0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MAV 0XXX (000-399) (Camera) (Japanese)"
+  },
+  {
+    "pattern": "MOVIE 0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MOVIE 0XXX (000-300) (Camera)"
+  },
+  {
+    "pattern": "ANMR0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "ANMR0XXX (000-300) (Camera)"
+  },
+  {
+    "pattern": "Snímek XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "Snímek XXX (001-300) (Camera) (Czech)"
+  },
+  {
+    "pattern": "DIGI0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "DIGI0XXX (001-300) (Camera)"
+  },
+  {
+    "pattern": "ASF 0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "ASF 0XXX (001-300) (Camera)"
+  },
+  {
+    "pattern": "VXX0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "VXX0XXX (00-50) (101-300) (Camera)"
+  },
+  {
+    "pattern": "IONX0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "IONX0XXX (001-250) (Camera)"
+  },
+  {
+    "pattern": "VICO0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "VICO0XXX (001-250) (Dashcam)"
+  },
+  {
+    "pattern": "ArcSoft VideoXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "ArcSoft VideoXXX (1-249) (Camera)"
+  },
+  {
+    "pattern": "PRMS0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "PRMS0XXX (001-200) (Trail Cam)"
+  },
+  {
+    "pattern": "SMOV0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SMOV0XXX (001-200) (Camera)"
+  },
+  {
+    "pattern": "RCA 0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "RCA 0XXX (001-200) (Camera)"
+  },
+  {
+    "pattern": "MOVA0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MOVA0XXX (001-200) (Camera)"
+  },
+  {
+    "pattern": "Sequence XXX",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Sequence XXX” (001-200) (Video Editor)"
+  },
+  {
+    "pattern": "WideoXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "WideoXXX (000-199) (Camera)"
+  },
+  {
+    "pattern": "MAX 0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "MAX 0XXX (001-150) (Drone)"
+  },
+  {
+    "pattern": "MDGC0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "MDGC0XXX (001-150) (Trail Cam)"
+  },
+  {
+    "pattern": "PCDV0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "PCDV0XXX (001-150) (Camera)"
+  },
+  {
+    "pattern": "HD0 0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "HD0 0XXX (000-120) (Camera)"
+  },
+  {
+    "pattern": "Filmato 0XXX",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Filmato 0XXX” (001-120) (Misc)"
+  },
+  {
+    "pattern": "Il mio filmato X",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Il mio filmato X” (1-100) (Misc) (Italian)"
+  },
+  {
+    "pattern": "LOOP0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "LOOP0XXX (001-100) (Action Cam)"
+  },
+  {
+    "pattern": "MAX 0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "MAX 0XXX (001-100) (Drone)"
+  },
+  {
+    "pattern": "SMDC0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SMDC0XXX (001-100) (Camera)"
+  },
+  {
+    "pattern": "HUNT0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "HUNT0XXX (001-100) (Trail Cam)"
+  },
+  {
+    "pattern": "ACXS0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "ACXS0XXX (001-100) (Action Cam)"
+  },
+  {
+    "pattern": "MVC XXXV",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MVC XXXV (001-100) (Camera)"
+  },
+  {
+    "pattern": "MA0 00XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MA0 00XX (00-99) (Camera) (Japanese)"
+  },
+  {
+    "pattern": "MMF00XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MMF00XX (00-99) (Camera)"
+  },
+  {
+    "pattern": "G01000XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "G01000XX (10-99) (GoPro)"
+  },
+  {
+    "pattern": "PCXX00XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "PCXX00XX (00-30) (01-99) (Camera)"
+  },
+  {
+    "pattern": "Sequence XX X",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Sequence XX X” (01-99) (1-3) (Video Editor)"
+  },
+  {
+    "pattern": "My Project X",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My Project X” (0-50) (Video Editor)"
+  },
+  {
+    "pattern": "Kazam Screencast 000XX\"                           @СтаниславШолтанюк",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen",
+      "russian"
+    ],
+    "example": null,
+    "raw": "\"Kazam Screencast 000XX\" (01-50) (Screen Recorder)                         @СтаниславШолтанюк"
+  },
+  {
+    "pattern": "CADDX0000XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "CADDX0000XX (01-50) (Drone)"
+  },
+  {
+    "pattern": "ZOE 00XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "ZOE 00XX (01-50) (Camera)"
+  },
+  {
+    "pattern": "Video_ts.vob",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Video_ts.vob” (DVD)"
+  },
+  {
+    "pattern": "MicrosoftTeams Video",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“MicrosoftTeams Video” (Misc)"
+  },
+  {
+    "pattern": "Axon Flex Video",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Axon Flex Video” (Body Cam)"
+  },
+  {
+    "pattern": "Test upload",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Test upload” (Misc)"
+  },
+  {
+    "pattern": "Moviemakeronline com",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Moviemakeronline com” (Misc)"
+  },
+  {
+    "pattern": "myvideo convert2video com",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“myvideo convert2video com” (Misc)"
+  },
+  {
+    "pattern": "Myvideo imagetovideo com",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"Myvideo imagetovideo com\"  (Misc)"
+  },
+  {
+    "pattern": "I created this video with the YouTube Slideshow Creator",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"I created this video with the YouTube Slideshow Creator\"  (Video Editor)"
+  },
+  {
+    "pattern": "I created this video with the YouTube Video Editor",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"I created this video with the YouTube Video Editor\" (Video Editor)"
+  },
+  {
+    "pattern": "Sent from my blackberry smartphone",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Sent from my blackberry smartphone\"  (Phone)"
+  },
+  {
+    "pattern": "Video from Tweetcaster",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Video from Tweetcaster” (App)"
+  },
+  {
+    "pattern": "My Ezvid Video",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "“My Ezvid Video” (Screen Recorder)"
+  },
+  {
+    "pattern": "This video was uploaded from an Android phone",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "\"This video was uploaded from an Android phone\" (Phone)"
+  },
+  {
+    "pattern": ".VOB",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.VOB” (DVD)"
+  },
+  {
+    "pattern": "копия видео",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "russian"
+    ],
+    "example": null,
+    "raw": "\"копия видео\"  (Misc) (Russian)"
+  },
+  {
+    "pattern": "копия видео Копия видео",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "russian"
+    ],
+    "example": null,
+    "raw": "\"копия видео Копия видео\"  (Misc) (Russian)"
+  },
+  {
+    "pattern": "Sprint PictureMail",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Sprint PictureMail” (Phone)"
+  },
+  {
+    "pattern": "Temp video for share",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "“Temp video for share” (Drone)"
+  },
+  {
+    "pattern": "My stop motion movie",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My stop motion movie” (Video Editor)"
+  },
+  {
+    "pattern": "XiaoYing video",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“XiaoYing video” (Misc)"
+  },
+  {
+    "pattern": "Dvgrab",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“Dvgrab” (Camera)"
+  },
+  {
+    "pattern": "Stop motion.avi",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“Stop motion.avi” (Camera) (Stop Motion)"
+  },
+  {
+    "pattern": "QuickCapture Video - Month D, YYYY",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "“QuickCapture Video - Month D, YYYY” (Webcam) (>2007, <2013)"
+  },
+  {
+    "pattern": "Webcam YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "Webcam YYYYMMDD (Webcam) (>2007, <2010)"
+  },
+  {
+    "pattern": "Webcam Recorded Video - Month D, YYYY",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "Webcam Recorded Video - Month D, YYYY (Webcam) (>2008, <2010)"
+  },
+  {
+    "pattern": "Webcam video Month D, YYYY",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "Webcam video Month D, YYYY (Webcam) (>2010, <2012)"
+  },
+  {
+    "pattern": "Project of DD Mth 2011 PDT",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Project of DD Mth 2011 PDT” (Video Editor)"
+  },
+  {
+    "pattern": "Webcam video from Month D, YYYY",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "Webcam video from Month D, YYYY (Webcam) (>2011, <2016)"
+  },
+  {
+    "pattern": "SCR YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "SCR YYYYMMDD (Screen Recorder) (>2014, <2018)"
+  },
+  {
+    "pattern": "Flipagram Month YYYY",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "Flipagram Month YYYY (Video Editor) (>2013, <2019)"
+  },
+  {
+    "pattern": "Iw3mp YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "Iw3mp YYYYMMDD (Game Capture) (>2008, <2020) (COD 4)"
+  },
+  {
+    "pattern": "AR.Drone 2.0 Video: YYYY",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "\"AR.Drone 2.0 Video: YYYY” (Drone) (>2015, <2021)"
+  },
+  {
+    "pattern": "WA VID YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "WA VID YYYYMMDD (App) (>2018, <2023)"
+  },
+  {
+    "pattern": "XRecorder DDMMYYYY",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "XRecorder DDMMYYYY (Screen Recorder) (>2021, <2024)"
+  },
+  {
+    "pattern": "CODWAWMP YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "CODWAWMP YYYY MM DD (Game Capture) (>2008, <2023) (COD WAW)"
+  },
+  {
+    "pattern": "Hl2 YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "Hl2 YYYY MM DD  (Game Capture) (>2008, <2023) (Half Life)"
+  },
+  {
+    "pattern": "Grand Theft Auto 5 YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "Grand Theft Auto 5 YYYY MM DD (Game Capture) (>2008) (GTA V)"
+  },
+  {
+    "pattern": "Javaw YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "Javaw YYYY MM DD (Game Capture) (>2009)"
+  },
+  {
+    "pattern": "Chrome YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "Chrome YYYY MM DD (Screen Recorder) (>2010)"
+  },
+  {
+    "pattern": "Bandicam YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "Bandicam YYYY MM DD (Screen Recorder) (>2010)"
+  },
+  {
+    "pattern": "Screen Recording YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "Screen Recording YYYY MM DD (Screen Recorder) (>2012)"
+  },
+  {
+    "pattern": "YouCut YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "YouCut YYYYMMDD (Video Editor) (>May 2018)"
+  },
+  {
+    "pattern": "Km YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "Km YYYYMMDD (Video Editor) (>2021)"
+  },
+  {
+    "pattern": "Simplescreenrecorder YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "Simplescreenrecorder YYYY MM DD (Screen Recorder) (>2023)"
+  },
+  {
+    "pattern": "720p YYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "720p YYMMDD (VYond / GoAnimate) (>2023)"
+  },
+  {
+    "pattern": "XRecorder YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "XRecorder YYYYMMDD (Screen Recorder) (>2024)"
+  },
+  {
+    "pattern": "501A0001",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "501A0001 (Game Capture) (NHL)"
+  },
+  {
+    "pattern": "NHL14XBX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "NHL14XBX (Game Capture) (NHL 14)"
+  },
+  {
+    "pattern": "771A0001",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "771A0001 (Game Capture) (UFC)"
+  },
+  {
+    "pattern": "741A0001",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "741A0001 (Game Capture) (FIFA 10)"
+  },
+  {
+    "pattern": "632A0001",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "632A0001 (Game Capture) (FIFA 11)"
+  },
+  {
+    "pattern": "491A0001",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "491A0001 (Game Capture) (FIFA 12)"
+  },
+  {
+    "pattern": "521A0001",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "521A0001 (Game Capture) (Madden 11)"
+  },
+  {
+    "pattern": "NCA14XBX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "NCA14XBX (Game Capture) (NCAA Football 14)"
+  },
+  {
+    "pattern": "101 XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "101 XXXX (0001-6500) (Camera)"
+  },
+  {
+    "pattern": "VIDXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "VIDXXXX (0000-5000) (Camera)"
+  },
+  {
+    "pattern": "YDXJXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "YDXJXXXX (0001-5000) (Camera)"
+  },
+  {
+    "pattern": "PIC XXXX",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“PIC XXXX” (0001-4000) (Camera)"
+  },
+  {
+    "pattern": "102 XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "102 XXXX (0001-4000) (Camera)"
+  },
+  {
+    "pattern": "S500XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "S500XXXX (0001-3000) (Camera)"
+  },
+  {
+    "pattern": "Picture XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "Picture XXXX (0001-3000) (Camera)"
+  },
+  {
+    "pattern": "VídeoXXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "VídeoXXXX (0001-2000) (Camera) (Portuguese)"
+  },
+  {
+    "pattern": "10X XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "10X XXXX (3-9) (0001-2000) (Camera)"
+  },
+  {
+    "pattern": "照片 XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "照片 XXX (001-1500) (Camera) (Chinese)"
+  },
+  {
+    "pattern": "SNC0XXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "SNC0XXXX (0001-1250) (Camera)"
+  },
+  {
+    "pattern": "XXXX.mpeg",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "XXXX.mpeg (0001-1000) (Camera)"
+  },
+  {
+    "pattern": "X.mpg",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“X.mpg” (1-1000) (Misc)"
+  },
+  {
+    "pattern": "MOVXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": "MOV42A",
+    "raw": "MOVXXX (000-999 / AAA-FFF) (Camera) [MOV42A]"
+  },
+  {
+    "pattern": "Photo XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "Photo XXX (001-900) (Camera)"
+  },
+  {
+    "pattern": "NORM0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "NORM0XXX (000-500) (Action Cam)"
+  },
+  {
+    "pattern": "Obraz XXX",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“Obraz XXX” (001-500) (Camera) (Polish)"
+  },
+  {
+    "pattern": "MPEG0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MPEG0XXX (001-500) (Camera)"
+  },
+  {
+    "pattern": ".mpg",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "(X).mpg (1-500) (Camera)"
+  },
+  {
+    "pattern": "Film0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "Film0XXX (001-300) (Camera) (Polish)"
+  },
+  {
+    "pattern": "DV000XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "DV000XXX (001-300) (Camera)"
+  },
+  {
+    "pattern": "YDTL0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "YDTL0XXX (001-300) (Camera) (Time-lapse)"
+  },
+  {
+    "pattern": "Produce X",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Produce X” (1-300) (Misc)"
+  },
+  {
+    "pattern": "FOTO0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "FOTO0XXX (001-250) (Camera)"
+  },
+  {
+    "pattern": "Фильм 0XXX",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "russian"
+    ],
+    "example": null,
+    "raw": "\"Фильм 0XXX\" (001-250) (Misc) (Russian)"
+  },
+  {
+    "pattern": "MovieXXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "MovieXXX (001-200) (Game Capture) (The Sims)"
+  },
+  {
+    "pattern": "Screencast X",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "\"Screencast X\" (1-200) (Screen Recorder)"
+  },
+  {
+    "pattern": "DCFC0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "DCFC0XXX (001-199) (Camera)"
+  },
+  {
+    "pattern": "Untitled Project X",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"Untitled Project X\" (1-150) (Misc)"
+  },
+  {
+    "pattern": "วิดีโอ0XXX",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“วิดีโอ0XXX” (000-140) (Camera) (Thai)"
+  },
+  {
+    "pattern": "L10X0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "L10X0XXX (0-9) (001-120) (Camera)"
+  },
+  {
+    "pattern": "X.webm",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“X.webm” (0-100) (Misc)"
+  },
+  {
+    "pattern": "My Video HD X",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"My Video HD X\" (1-100) (Video Editor)"
+  },
+  {
+    "pattern": "AK000XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "AK000XXX (001-100) (Camera)"
+  },
+  {
+    "pattern": "EMER0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "EMER0XXX (001-100) (Dashcam)"
+  },
+  {
+    "pattern": ".m2ts",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "(X).m2ts (1-100) (Camera)"
+  },
+  {
+    "pattern": "X.rmvb",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "X.rmvb (1-100) (Misc)"
+  },
+  {
+    "pattern": "X.divx",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "X.divx (1-100) (Misc)"
+  },
+  {
+    "pattern": "ATNX0XXX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "ATNX0XXX (001-100) (Hunting Camera)"
+  },
+  {
+    "pattern": "MOVXXX.MOD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": "MOV4AA.MOD",
+    "raw": "MOVXXX.MOD (0-9) (00-99 / AA-FF) (Camera) [MOV4AA.MOD]"
+  },
+  {
+    "pattern": "SXXX00XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": "S1230011",
+    "raw": "SXXX00XX (1-8) (00-99) (01-99) (Camera) [S1230011]"
+  },
+  {
+    "pattern": "NORMAL000XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "NORMAL000XX (00-99) (Camera)"
+  },
+  {
+    "pattern": "Eco 000XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "Eco 000XX (01-99) (Camera) (Playstation Eye)"
+  },
+  {
+    "pattern": "TLC000XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "TLC000XX (01-80) (Camera) (Time-lapse)"
+  },
+  {
+    "pattern": "L00000XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "L00000XX (01-60) (Camera)"
+  },
+  {
+    "pattern": "X.ogv",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“X.ogv” (0-50) (Misc)"
+  },
+  {
+    "pattern": "Videoklip 00XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "Videoklip 00XX (01-50) (Camera) (Hungary)"
+  },
+  {
+    "pattern": "EKEN00XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "action_drone"
+    ],
+    "example": null,
+    "raw": "EKEN00XX (01-50) (Action Cam)"
+  },
+  {
+    "pattern": "TITLE01 X",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "TITLE01 X (1-50) (DVD)"
+  },
+  {
+    "pattern": "TVideo_000XX",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "\"TVideo_000XX” (01-50) (Webcam)"
+  },
+  {
+    "pattern": ".mkv",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“(X).mkv\" (1-45) (Misc) (YouTube Intros)"
+  },
+  {
+    "pattern": "XVR CHX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "XVR CHX (1-30) (Security Camera)"
+  },
+  {
+    "pattern": "DV000XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "DV000XX (01-30) (Camera)"
+  },
+  {
+    "pattern": "CH000000000000XX",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "CH000000000000XX (01-16) (Security Camera)"
+  },
+  {
+    "pattern": "X FLV VIDEO",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "\"X FLV VIDEO\" (0-9) (Game Capture)"
+  },
+  {
+    "pattern": "VCD\" * \"0",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“VCD” * “0” (VHS) (VHS burned onto DVD)"
+  },
+  {
+    "pattern": "DVD\" * \"0",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“DVD” * “0” (VHS)"
+  },
+  {
+    "pattern": "MP1\" * \"0",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“MP1” * “0” (VHS)"
+  },
+  {
+    "pattern": "10000000\" * * \"n",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"10000000\" * * ”n” (Misc)"
+  },
+  {
+    "pattern": "NVEExport",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "NVEExport (Misc)"
+  },
+  {
+    "pattern": "100MEDIA",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"100MEDIA\" (File Path)"
+  },
+  {
+    "pattern": "VR_MOVIE.VRO",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "\"VR_MOVIE.VRO\" (Camera)"
+  },
+  {
+    "pattern": "DVD_VIDEO_RECORDER",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"DVD_VIDEO_RECORDER\" (Misc)"
+  },
+  {
+    "pattern": "For ipod video and iphone",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"For ipod video and iphone\" (Misc)"
+  },
+  {
+    "pattern": "Your Paragraph Text",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Your Paragraph Text”  (Video Editor)"
+  },
+  {
+    "pattern": "Kava Injected",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Kava Injected” (360 Video)"
+  },
+  {
+    "pattern": "story_fbid",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“story_fbid” (File Path) (Facebook)"
+  },
+  {
+    "pattern": "Created with",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Created with"
+  },
+  {
+    "pattern": "By Magisto",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“By Magisto” (Video Editor)"
+  },
+  {
+    "pattern": "Created by Magisto - Magical Video Editor",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Created by Magisto - Magical Video Editor” (Video Editor)"
+  },
+  {
+    "pattern": "Film nagrany kamerą internetową w dniu",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "\"Film nagrany kamerą internetową w dniu\" (Webcam) (Polish)"
+  },
+  {
+    "pattern": "Personal Microsoft Edge",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "“Personal Microsoft Edge” (Screen Recorder)"
+  },
+  {
+    "pattern": "Profile 1 Microsoft Edge",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "“Profile 1 Microsoft Edge” (Screen Recorder)"
+  },
+  {
+    "pattern": "Uploaded with Free Leawo Video Converter",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "Uploaded with Free Leawo Video Converter (Misc)"
+  },
+  {
+    "pattern": "sent from my iphone",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "\"sent from my iphone\" (iPhone)"
+  },
+  {
+    "pattern": "sent from my ipad",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "\"sent from my ipad” (iPad)"
+  },
+  {
+    "pattern": "Video Cache",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Video Cache” (Misc)"
+  },
+  {
+    "pattern": "Created using the one true media",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Created using the one true media” (Video Editor)"
+  },
+  {
+    "pattern": "Movie uploaded from Samsung Intelli-studio",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Movie uploaded from Samsung Intelli-studio” (Video Editor)"
+  },
+  {
+    "pattern": "Recovered Autosave",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Recovered Autosave\" (Video Editor)"
+  },
+  {
+    "pattern": "Video cam direct upload",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“Video cam direct upload” (Camera) (Video Response)"
+  },
+  {
+    "pattern": "Created with iTimelapse",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"Created with iTimelapse\" (Video Editor) (Time-lapse)"
+  },
+  {
+    "pattern": "searchstory",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“searchstory” (Video Editor)"
+  },
+  {
+    "pattern": "Made with Explain Everything",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"Made with Explain Everything\" (Video Editor)"
+  },
+  {
+    "pattern": "Video created using fotoslides",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"Video created using fotoslides\" (Video Editor)"
+  },
+  {
+    "pattern": "H 264 LAN",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“H 264 LAN” (Misc)"
+  },
+  {
+    "pattern": "Fiz este vídeo com o Criador de slides do YouTube",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"Fiz este vídeo com o Criador de slides do YouTube\" (Video Editor)"
+  },
+  {
+    "pattern": "Este vídeo foi enviado de um telefone Android",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"Este vídeo foi enviado de um telefone Android\" (Video Editor)"
+  },
+  {
+    "pattern": "This video was produced with a Swivl!",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“This video was produced with a Swivl!”  (Camera) (School)"
+  },
+  {
+    "pattern": "Created with Wondershare Video Editor",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Created with Wondershare Video Editor” (Video Editor)"
+  },
+  {
+    "pattern": "Created with Wondershare Filmora",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Created with Wondershare Filmora” (Video Editor)"
+  },
+  {
+    "pattern": "RingVideo",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“RingVideo”  (Doorbell Camera)"
+  },
+  {
+    "pattern": "Uploaded using 173434605274",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"Uploaded using 173434605274\" (Video Editor)"
+  },
+  {
+    "pattern": "Slideagram",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Slideagram” (Video Editor)"
+  },
+  {
+    "pattern": "vlcsnap",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“vlcsnap” (Misc)"
+  },
+  {
+    "pattern": "Видео без названия сделано в Clipchamp",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor",
+      "russian"
+    ],
+    "example": null,
+    "raw": "\"Видео без названия сделано в Clipchamp\" (Video Editor) (Russian)"
+  },
+  {
+    "pattern": "Дизайн без названия",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "russian"
+    ],
+    "example": null,
+    "raw": "“Дизайн без названия\" (Misc) (Russian)"
+  },
+  {
+    "pattern": "Мое измененное видео",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "editor",
+      "russian"
+    ],
+    "example": null,
+    "raw": "Мое измененное видео (Video Editor) (Russian)"
+  },
+  {
+    "pattern": "Dogbook Movie",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Dogbook Movie” (Video Editor)"
+  },
+  {
+    "pattern": "Catbook Movie",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Catbook Movie” (Video Editor)"
+  },
+  {
+    "pattern": "Horsebook Movie",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Horsebook Movie” (Video Editor)"
+  },
+  {
+    "pattern": "film wideo z telefonu",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "\"film wideo z telefonu\" (Phone) (Polish)"
+  },
+  {
+    "pattern": "created at animoto.com",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"created at animoto.com\" (Video Editor)"
+  },
+  {
+    "pattern": "My Vidrhythm",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My Vidrhythm\" (Video Editor)"
+  },
+  {
+    "pattern": "swf2avi",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“swf2avi” (Misc)"
+  },
+  {
+    "pattern": "Shot with Geforce",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "“Shot with Geforce” (Game Capture) (Nvidia)"
+  },
+  {
+    "pattern": "XDCAM EX HQ",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“XDCAM EX HQ” (Camera)"
+  },
+  {
+    "pattern": "35 Mbps VBR",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“35 Mbps VBR” (Bit Rate)"
+  },
+  {
+    "pattern": "video senza titolo",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"video senza titolo\" (Misc) (Italian)"
+  },
+  {
+    "pattern": "My tagged photos in Pummelvision",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My tagged photos in Pummelvision” (Video Editor)"
+  },
+  {
+    "pattern": "Mój edytowany film",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Mój edytowany film” (Video Editor) (Polish)"
+  },
+  {
+    "pattern": "Ring FrontDoor",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“Ring FrontDoor” (Doorbell Camera)"
+  },
+  {
+    "pattern": "のコピー",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"のコピー\" (Misc) (Japanese)"
+  },
+  {
+    "pattern": "無題のビデオ",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“無題のビデオ\" (Misc) (Japanese)"
+  },
+  {
+    "pattern": "无题",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“无题” (Misc) (Chinese)"
+  },
+  {
+    "pattern": "My great game My great capture",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "“My great game My great capture\" (Game Capture)"
+  },
+  {
+    "pattern": "Video dari ponsel saya",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Video dari ponsel saya” (Phone) (Indonesian)"
+  },
+  {
+    "pattern": "moje upravené video",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"moje upravené video\" (Video Editor) (Czech)"
+  },
+  {
+    "pattern": "Sent using a Sony Ericsson mobile phone",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "\"Sent using a Sony Ericsson mobile phone\" (Phone)"
+  },
+  {
+    "pattern": "Created with WeVideo",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"Created with WeVideo\" (Video Editor)"
+  },
+  {
+    "pattern": "Klip wideo bez tytułu",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "\"Klip wideo bez tytułu\" (Screen Recorder) (Polish)"
+  },
+  {
+    "pattern": "Screencast from",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "\"Screencast from” (Screen Recorder)"
+  },
+  {
+    "pattern": "my screencast",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "\"my screencast\" (Screen Recorder)"
+  },
+  {
+    "pattern": "640x360 - SD MP4.mp4",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"640x360 - SD MP4.mp4\" (Resolution) (Music)"
+  },
+  {
+    "pattern": "My Video HQ",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"My Video HQ\" (Video Editor)"
+  },
+  {
+    "pattern": "Produced with Cyberlink PhotoDirector",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"Produced with Cyberlink PhotoDirector\" (Video Editor)"
+  },
+  {
+    "pattern": "HD 1080p 4 8Mbps",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"HD 1080p 4 8Mbps\" (Resolution)"
+  },
+  {
+    "pattern": "hd 1920 1080",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "hd 1920 1080 (Resolution) (Stock Footage)"
+  },
+  {
+    "pattern": "hd 1280 720",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“hd 1280 720” (Resolution) (Stock Footage)"
+  },
+  {
+    "pattern": "hd 3840 2160",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“hd 3840 2160” (Resolution) (Stock Footage)"
+  },
+  {
+    "pattern": "New Loom Recording",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "“New Loom Recording” (Screen Recorder) (Loom)"
+  },
+  {
+    "pattern": "Meeting in General",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "“Meeting in General” (Microsoft Teams)"
+  },
+  {
+    "pattern": "What do you think of this picture?",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"What do you think of this picture?\" (Video Editor)"
+  },
+  {
+    "pattern": "Minha apresentação de slides",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Minha apresentação de slides” (Video Editor) (Portuguese)"
+  },
+  {
+    "pattern": "VIDEO TS",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"VIDEO TS\" (DVD)"
+  },
+  {
+    "pattern": ".rmvb",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\".rmvb\" (Format)"
+  },
+  {
+    "pattern": ".hevc",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\".hevc\" (Format)"
+  },
+  {
+    "pattern": ".mpg",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.mpg” (Format)"
+  },
+  {
+    "pattern": ".flv",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“.flv” (Format)"
+  },
+  {
+    "pattern": ".divx",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\".divx\" (Format)"
+  },
+  {
+    "pattern": ".qt",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\".qt\" (Format)"
+  },
+  {
+    "pattern": ".webm",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\".webm\" (Format)"
+  },
+  {
+    "pattern": "Messenger creation",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Messenger creation” (Phone)"
+  },
+  {
+    "pattern": "Generated File",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"Generated File\" (AI Editor) (AI Hell)"
+  },
+  {
+    "pattern": "mp4 media web",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"mp4 media web\" (AI Editor) (AI Hell)"
+  },
+  {
+    "pattern": "vidu video",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "\"vidu video\" (AI Editor) (AI Hell)"
+  },
+  {
+    "pattern": "Mijn diavoorstelling",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“Mijn diavoorstelling” (Video Editor) (Dutch)"
+  },
+  {
+    "pattern": "VDD MM YY",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "VDD MM YY (>2008, <2017) (Camera)"
+  },
+  {
+    "pattern": "VDDMMYY",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "VDDMMYY  (>2008, <2017) (Camera)"
+  },
+  {
+    "pattern": "RobloxApp YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "RobloxApp YYYYMMDD (>2009) (Game capture) (Roblox)"
+  },
+  {
+    "pattern": "RobloxApp YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "games"
+    ],
+    "example": null,
+    "raw": "RobloxApp YYYY MM DD (>2009) (Game capture) (Roblox)"
+  },
+  {
+    "pattern": "VLC Record YYYY MM DD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "VLC Record YYYY MM DD (>2010) (Misc)"
+  },
+  {
+    "pattern": "YYYY년 M월 D일",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "YYYY년 M월 D일 (Misc) (>2010) (S. Korean)"
+  },
+  {
+    "pattern": "YYYY年M月D日",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "YYYY年M月D日 (Misc) (>2010) (Japanese)"
+  },
+  {
+    "pattern": "Vlcsnap YYYY",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "Vlcsnap YYYY (>2010, <2023) (Misc)"
+  },
+  {
+    "pattern": "My Movie",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "\"My Movie (MM DD, 2013)\" (Camera)"
+  },
+  {
+    "pattern": "mobizen YYYYMMDD",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "mobizen YYYYMMDD (>2014) (Screen Recorder)"
+  },
+  {
+    "pattern": "ScreenRecording MM DD YYYY",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "“ScreenRecording MM DD YYYY\" (>2017) (Screen Recorder)"
+  },
+  {
+    "pattern": "obs YYYY-MM-DD",
+    "in_quotes": true,
+    "map": 2,
+    "tags": [
+      "webcam_screen"
+    ],
+    "example": null,
+    "raw": "\"obs YYYY-MM-DD” (>2018) (Screen Recording) (OBS)"
+  },
+  {
+    "pattern": "Videoshop YYYY MM",
+    "in_quotes": false,
+    "map": 2,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "Videoshop YYYY MM (>2019) (Camera)"
+  },
+  {
+    "pattern": "You have new picture mail!",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“You have new picture mail! (video)” (Phone)"
+  },
+  {
+    "pattern": "Media1.3gp",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Media1.3gp” (Phone)"
+  },
+  {
+    "pattern": "Media1.3g2",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Media1.3g2” (Phone)"
+  },
+  {
+    "pattern": "Video.3g2",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Video.3g2” (Misc)"
+  },
+  {
+    "pattern": "New Multimedia Message",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“New Multimedia Message” (Phone)"
+  },
+  {
+    "pattern": "Multimedia Message",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Multimedia Message” (Phone)"
+  },
+  {
+    "pattern": "Video from my phone",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Video from my phone” (Phone)"
+  },
+  {
+    "pattern": "Video uploaded from my mobile phone",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Video uploaded from my mobile phone” (Phone)"
+  },
+  {
+    "pattern": "For Month DD, YYYY",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": "For December 02, 2007",
+    "raw": "“For Month DD, YYYY” [“For December 02, 2007”] (Phone)"
+  },
+  {
+    "pattern": "Recorded on Month DD, YYYY using a Flip Video Camcorder",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“Recorded on Month DD, YYYY using a Flip Video Camcorder” (Camera)"
+  },
+  {
+    "pattern": "Video0XX",
+    "in_quotes": false,
+    "map": 3,
+    "tags": [
+      "camera"
+    ],
+    "example": "Video001",
+    "raw": "Video0XX (00-10) [Video001] (Camera)"
+  },
+  {
+    "pattern": "Vid0XX",
+    "in_quotes": false,
+    "map": 3,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "Vid0XX (00-10) (Camera)"
+  },
+  {
+    "pattern": "MOV000XX",
+    "in_quotes": false,
+    "map": 3,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "MOV000XX (00-10) (Camera)"
+  },
+  {
+    "pattern": "Recorded on Month DD, YYYY using a Flip Video Camera",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“Recorded on Month DD, YYYY using a Flip Video Camera” (Camera)"
+  },
+  {
+    "pattern": "Created on Month DD, YYYY using FlipShare",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“Created on Month DD, YYYY using FlipShare” (Camera)"
+  },
+  {
+    "pattern": "Video van Mijn telefoon",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Video van Mijn telefoon” (Phone) (Netherlands)"
+  },
+  {
+    "pattern": "video geüpload van mijn mobiel",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "\"video geüpload van mijn mobiel\" (Phone) (Netherlands)"
+  },
+  {
+    "pattern": "Vídeo desde mi teléfono",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "“Vídeo desde mi teléfono” (Phone)"
+  },
+  {
+    "pattern": "vídeo subido desde mi teléfono móvil",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "\"vídeo subido desde mi teléfono móvil\" (Phone)"
+  },
+  {
+    "pattern": "muuvee00XX",
+    "in_quotes": false,
+    "map": 3,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "muuvee00XX (00-40) (Video Editor)"
+  },
+  {
+    "pattern": "0_VIDEO_0XX",
+    "in_quotes": false,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "0_VIDEO_0XX (01-54) (Phone)"
+  },
+  {
+    "pattern": "You have received a new message",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "\"You have received a new message\" (Phone)"
+  },
+  {
+    "pattern": "My Great Movie",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My Great Movie” (Video Editor)"
+  },
+  {
+    "pattern": "My First Project",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "editor"
+    ],
+    "example": null,
+    "raw": "“My First Project” (Video Editor)"
+  },
+  {
+    "pattern": "Cliquez pour ajouter un titre…",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "“Cliquez pour ajouter un titre…” (Misc)"
+  },
+  {
+    "pattern": "Click here to change title",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "camera"
+    ],
+    "example": null,
+    "raw": "“Click here to change title” (Camera)"
+  },
+  {
+    "pattern": "/tmp/upload/ before:2009",
+    "in_quotes": false,
+    "map": 3,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "/tmp/upload/ before:2009 (File Path)"
+  },
+  {
+    "pattern": "=?utf-8?b before:2009",
+    "in_quotes": false,
+    "map": 3,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "=?utf-8?b before:2009 (File Path)"
+  },
+  {
+    "pattern": "=?utf-8?q before:2009",
+    "in_quotes": false,
+    "map": 3,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "=?utf-8?q before:2009 (File Path)"
+  },
+  {
+    "pattern": "=?iso-8859-1?Q? before:2009",
+    "in_quotes": false,
+    "map": 3,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "=?iso-8859-1?Q? before:2009 (File Path)"
+  },
+  {
+    "pattern": "You have a PXT from",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "phone"
+    ],
+    "example": null,
+    "raw": "\"You have a PXT from\" (Phone)"
+  },
+  {
+    "pattern": "C:\\Documents and Settings",
+    "in_quotes": true,
+    "map": 3,
+    "tags": [
+      "general"
+    ],
+    "example": null,
+    "raw": "\"C:\\Documents and Settings\" (File Path)"
+  }
+]
